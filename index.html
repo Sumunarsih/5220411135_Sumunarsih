@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="%PUBLIC_URL%/FAVICON.ICO" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PWT WEB</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/partner.png" class="logo-img" />
+                <h1 class="logo-title">ASIH X</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="mailto:narsihelrumy@gmail.com">KONTAK</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Hello, Sumunarsih here!</p>
+                <p class="description">Mahasiswa UTY Informatika</p>
+                <img src="assets/nyong.jpg" class="img-foto"/>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="home">
+                <p class="title">saya suka hal yang berhubungan dengan komputer</p>
+                <p class="description">ngoding aja dulu,jagonya belakangan</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+                </div>
+            </div>
+            <div class="container">
+                    <div class="card" id="about">
+                        <div class="card-item">
+                            <img src="assets/24-hours.png" class="icon" />
+                            <p class="card-title">Ringkasan Biografi</p>
+                            <p class="card-description">- Sumunarsih,lahir pada 16 Desember 2003 
+                                di salah satu desa yang berada di Musi banyuasin,Sumatera selatan</p> 
+                            <p class="card-description">- Saya adalah anak bungsu dari 4 bersaudara dan merupakan anak perempuan satu-satunya. </p>   
+                            <p class="card-description">- Saya adalah perempuan yang memiiki hobi bermain voli dan senang mencoba hal baru</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/hot-deal.png" class="icon" />
+                            <p class="card-title">Riwayat Pendidikan</p>
+                            <p class="card-description">1. Mahasiswa Informatika di Universitas Teknologi Yogyakarta (2022 - Sekarang).</p> 
+                            <p class="card-description">2. SMA negeri 2 unggul sekayu (2019 - 2022) </p>   
+                            <p class="card-description">3. SMP negeri 3 batanghari leko (2016 - 2019)</p>   
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/rating.png" class="icon" />
+                            <p class="card-title">Akun Media Sosial</p>
+                            <p class="card-description">Nama : Sumunarsih </p>
+                            <p class="card-description">Alamat domisili : Desa tambakrejo,Dusun Semampir Wetan,Tempel,Sleman </p>
+                            <p class="card-description">Email : narsihelrumy@gmail.com </p>
+                            <p class="card-description">Telepon : 082311937043 </p>
+                            <p class="card-description">Instagram : narsihelrumy </p>
+                            <p class="card-description">Facebook : NarsihRkive </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <footer>
+            <p class="title">&copy;5220411135_Sumunarsih website 2024</p>
+        </footer>
+
+        <script>
+            function redirInstagram() {
+                window.location.href = "https://instagram.com/narsihelrumy"
+            }
+            function redirWhatsapp() {
+                window.location.href = "https://wa.me/+6282311937043"
+            }
+        </script>
+    </body>
+</html>
